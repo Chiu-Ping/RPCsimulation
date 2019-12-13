@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chiu-ping/Documents/RPCsimulation/gasfile.C
+iostream
+-
+fstream
+-
+TCanvas.h
+-
+TROOT.h
+-
+TApplication.h
+-
+TTree.h
+-
+TNtuple.h
+-
+TFile.h
+-
+MediumMagboltz.hh
+/home/chiu-ping/Documents/RPCsimulation/MediumMagboltz.hh
+FundamentalConstants.hh
+/home/chiu-ping/Documents/RPCsimulation/FundamentalConstants.hh
+
